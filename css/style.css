@@ -145,15 +145,16 @@ nav {
     display: block;
     padding: 1rem 2rem;
     border-radius: 15px;
-    background: rgba(255,255,255,0.1);
+    background: rgb(1, 60, 17, 0.5);
     margin: 0.5rem 0;
     backdrop-filter: blur(10px);
 }
 
 .mobile-menu-links a:hover {
-    background: rgba(255,255,255,0.2);
+    background: rgb(1, 60, 17);
     transform: scale(1.05);
-    color: #C8E6C9;
+    color: white;
+    font-weight: 1000;
 }
 
 .mobile-menu-close {
@@ -476,7 +477,7 @@ footer {
 
 #Intro li {
     list-style-type: none;
-    background: url("/Durazno3Transp.png") no-repeat left top;
+    background: url("/Pagina_Web_Nutrici-n/img/Durazno3Transp.png") no-repeat left top;
     background-size: 35px;
     padding-left: 2.5rem;
     font-size: x-large;
